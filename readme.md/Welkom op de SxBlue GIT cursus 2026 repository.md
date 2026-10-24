@@ -5,7 +5,7 @@ De bedoeling van deze repository is om samen te leren hoe GIT werkt en hoe grote
 
 De beheerder van deze repository is Wouter Kitsz (wkitsz@sxblue.nl). 
 
-## De start
+## Voorbereiding (vóór de cursusavond doen)
 ### Installeren van GIT
 *MacOs* <br>
 Typ git in je Terminal. 
@@ -66,12 +66,11 @@ Er zijn nu twee bestanden aangemaakt:
 - id_ed25519.pub	| Publieke sleutel. Deze voeg je toe aan GitHub.  
 4. Start de ssh-agent en voeg de sleutel toe
 De ssh-agent onthoudt je sleutel (en passphrase) zodat je die niet bij elke push hoeft in te voeren.
-
-4a. Zet de service eenmalig aan (PowerShell als administrator: rechtermuisknop op Windows PowerShell → Als administrator uitvoeren):  
+- Zet de service eenmalig aan (PowerShell als administrator: rechtermuisknop op Windows PowerShell → Als administrator uitvoeren):  
 Get-Service ssh-agent | Set-Service -StartupType Automatic.  
 Start-Service ssh-agent  
 
-4b. Voeg de sleutel toe (in een gewone PowerShell):  
+- Voeg de sleutel toe (in een gewone PowerShell):  
 ssh-add $env:USERPROFILE\.ssh\id_ed25519  
 Controleer of de sleutel geladen is:  
 ssh-add -l  
@@ -97,13 +96,11 @@ Een geslaagde verbinding geeft:
 **Hi <gebruikersnaam>! You've successfully authenticated, but GitHub does not provide shell access.
 Dit is geen fout, maar de bevestiging dat het werkt.**
 
-
-Initialiseer een repository
-git init
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/wkitsz/GIT-Cursus-SxBlue-2026.git
-git push -u origin main
+### Maak een GITHub account aan 
+Maak een GITHub account aan met je *sxblue email* adres. 
+Ga naar:  
+https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home   
+Stuur mij daarna een mail dat je het gedaan hebt. Vervolgens zal ik je toevoegen aan de SUPERP GIThub zodat je toegang hebt tot onze repository. 
 
 
 
