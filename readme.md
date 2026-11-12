@@ -5,7 +5,14 @@ De bedoeling van deze repository is om samen te leren hoe GIT werkt en hoe grote
 
 De beheerder van deze repository is Wouter Kitsz (wkitsz@sxblue.nl). 
 
-## Voorbereiding (vóór de cursusavond doen)
+## Voorbereiding (vóór de cursusavond doen)  
+### Maak een GITHub account aan
+Maak een GITHub account aan met je *sxblue email* adres.
+Ga naar:
+https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
+Stuur mij daarna een mail dat je het gedaan hebt. Vervolgens zal ik je toevoegen aan de SUPERP GIThub zodat je toegang hebt tot onze repository.
+
+
 ### Installeren van GIT
 *MacOs* <br>
 Typ git in je Terminal. 
@@ -95,13 +102,6 @@ Een geslaagde verbinding geeft:
 
 **Hi <gebruikersnaam>! You've successfully authenticated, but GitHub does not provide shell access.
 Dit is geen fout, maar de bevestiging dat het werkt.**
-
-### Maak een GITHub account aan 
-Maak een GITHub account aan met je *sxblue email* adres. 
-Ga naar:  
-https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home   
-Stuur mij daarna een mail dat je het gedaan hebt. Vervolgens zal ik je toevoegen aan de SUPERP GIThub zodat je toegang hebt tot onze repository. 
-
 
 
 
