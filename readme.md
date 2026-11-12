@@ -38,9 +38,10 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 3. Voeg de publieke sleutel toe aan GitHub
 Kopieer de publieke sleutel naar je klembord:<br>
 pbcopy < ~/.ssh/id_ed25519.pub
-Ga daarna naar GitHub → Settings → SSH and GPG keys → New SSH key. Geef de sleutel een naam (bijvoorbeeld “MacBook M1”), plak de sleutel in het veld en klik op Add SSH key.
+Ga daarna naar de website van GitHub en klik rechtsbovenin op je User  → Settings → SSH and GPG keys → New SSH key. Geef de sleutel een naam (bijvoorbeeld “MacBook M1”), plak de sleutel in het veld en klik op Add SSH key.
 
 4. Test de verbinding<br>
+Tik het hele volgende commando in je terminal op je laptop:
 ssh -T git@github.com<br>
 Bij de eerste keer vraagt SSH of je de authenticiteit van github.com vertrouwt. Typ yes.
 Een geslaagde verbinding geeft:
