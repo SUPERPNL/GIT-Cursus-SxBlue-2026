@@ -4,7 +4,7 @@ In deze repository komen de cursus bestanden te staan. Als handigheidje staat de
 De bedoeling van deze repository is om samen te leren hoe GIT werkt en hoe grotere bedrijven omgaan met version control. 
 
 De beheerder van deze repository is Wouter Kitsz (wkitsz@sxblue.nl). 
-
+  
 ## Voorbereiding (vóór de cursusavond doen)  
 ### Maak een GITHub account aan
 Maak een GITHub account aan met je *sxblue email* adres.
@@ -37,7 +37,7 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 3. Voeg de publieke sleutel toe aan GitHub
 Kopieer de publieke sleutel naar je klembord:<br>
-pbcopy < ~/.ssh/id_ed25519.pub
+pbcopy < ~/.ssh/id_ed25519.pub  
 Ga daarna naar de website van GitHub en klik rechtsbovenin op je User  → Settings → SSH and GPG keys → New SSH key. Geef de sleutel een naam (bijvoorbeeld “MacBook M1”), plak de sleutel in het veld en klik op Add SSH key.
 
 4. Test de verbinding<br>
